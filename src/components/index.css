@@ -44,3 +44,10 @@ body {
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
+.heroButton {
+    background-color: rgba(0, 0, 0, .5);
+    border: #000 1px solid;
+    padding: .5em;
+    color: #fff;
+}
