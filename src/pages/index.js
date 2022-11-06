@@ -1,8 +1,13 @@
 import React from 'react';
 import "../components/index.css"
 import { navigate } from "gatsby"
+import { Link } from 'gatsby';
+/*
+import React from 'react';
+import { Link } from "gatsby"
 import "../components/index.css"
-import { Link } from 'gatsby'
+*/
+
 const Index = () => {
   return (
     <header className='hero'>
@@ -10,7 +15,7 @@ const Index = () => {
         <div className='heroInfo'>
         <h1>Jeff C. Salter</h1>
         <p>Cybersecurity and Information Design</p>
-      
+        <button className='heroButton' onClick={()=>{navigate("/about'")}}>How We Can Help</button>
       </div>
     </div>
   </header>
