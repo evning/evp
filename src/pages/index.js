@@ -1,12 +1,29 @@
 import React from 'react';
+import Layout from "../components/layout"
+
+const Index = () => {
+
+  return(
+    <Layout>
+      <h1>This is the homepagebody copy area</h1>
+    </Layout>
+  )
+}
+export default Index
+
+
+
+
+/*
+import React from 'react';
 import "../components/index.css"
 import { navigate } from "gatsby"
 import { Link } from 'gatsby';
-/*
+
 import React from 'react';
 import { Link } from "gatsby"
 import "../components/index.css"
-*/
+
 
 const Index = () => {
   return (
@@ -23,3 +40,4 @@ const Index = () => {
 }
 
 export default Index
+*/
