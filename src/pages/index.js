@@ -18,22 +18,20 @@ const Index = () => {
            />
            </Link>
           </div>
-          <div className="cardTwo">
-            <Link to ="/contact">
-            <Card 
-              title="Custom Photography"
-              text="Location or Studio"
-           />
-           </Link>
-          </div>
-          <div className="cardThree">
-            <Link to ="/gallery">
-            <Card 
-              title="Ideas and Recommendations"
-              text="Let us build up your web presence"
-           />
-           </Link>
-          </div> 
+         <div className="cardTwo">
+         <Link to ="/services">
+         <Card 
+         title="Custom Photography"
+         text="Location or Studio"/>
+         </Link>
+         </div>
+         <div className="cardThree">
+         <Link to ="/services">
+         <Card 
+         title="Ideas and Recommendations"
+         text="Let us build up your web presence"/>
+         </Link>
+         </div> 
          </div>
       </div>
     </Layout>
