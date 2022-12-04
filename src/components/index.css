@@ -18,17 +18,17 @@ body {
     text-align: center;
 }
 .cardOne {
-    background-image: url(.../images/card-1.jpg);
+    background-image: url(../images/card-1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .cardTwo {
-    background-image: url(.../images/card-2.jpg);
+    background-image: url(../images/card-2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .cardThree {
-    background-image: url(.../images/card-3.jpg);
+    background-image: url(../images/card-3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -43,7 +43,7 @@ body {
     }
 }
 
-
+"../images/tango.jpg"
 
 
 
