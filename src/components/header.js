@@ -1,4 +1,4 @@
-import React from 'React'
+import React from 'react'
 
 import * as heroStyles from "./hero.module.css"
 import { navigate } from "gatsby"
