@@ -1,8 +1,9 @@
 import React from 'react'
+import * as cardStyles from "./card.module.css"
 
 const Card = props => {
-    <div classname="Card">
-        <h3>Web Design</h3>
-        <p>Sub Title</p>
+    <div classname={cardStyles.Card}>
+        <h3>{props.title}</h3>
+        <p>{props.text}</p>
     </div>
 }

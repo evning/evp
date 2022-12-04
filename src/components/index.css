@@ -1,3 +1,41 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.cardGroup {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 40px 100px;
+    grid-gap: 40px;
+    justify-items: center;
+}
+.Cards h2 {
+    margin: 50px 20px;
+}
+@media (max-width: 1060px) {
+    .cardGroup {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 760px) {
+        .cardGroup {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*
 .hero{
     background-image: url("../images/tango.jpg");
     height: 60vh;
@@ -44,3 +82,4 @@ body {
     padding: .5em;
     color: #fff;
 }
+*/

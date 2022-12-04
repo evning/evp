@@ -8,6 +8,7 @@ const Index = () => {
     <Layout>
       <div className="Cards">
         <h2>How can we help</h2>
+        <div className="cardGroup">
         <Card 
           title="Web Design"
           text="Sub Title"/>
@@ -18,6 +19,7 @@ const Index = () => {
           title="Ideas and Recommendations"
           text="Let us build up your web presence "/>
       </div>
+    </div>
     </Layout>
   )
 }
