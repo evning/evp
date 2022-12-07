@@ -1,13 +1,13 @@
 import React from 'react'
 import Layout from "../components/layout"
-import Cards from "../components/card"
+import Card from "../components/card"
 import "../components/index.css"
 import { Link } from "gatsby"
 
 const Index = () => {
   return(
     <Layout>
-      <div className="Cards">
+      <div className="Card">
         <h2>How can we help</h2>
         <div className="cardGroup">
           <div className="cardOne">
